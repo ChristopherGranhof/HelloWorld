@@ -35,21 +35,22 @@ body {
 
 .image {
     position: absolute;
-    top: 0;
+    top: 15%;
     left: 37%;
     width: auto;
     height: 300px;
     z-index: 300;
     border-radius: 50%;
+    transform-origin: 0 0;
     animation: spin 4s linear infinite;
 }
 
 @keyframes spin {
     from {
-        transform: rotate(0deg);
+        transform: rotate(0deg) translate(-50%, -50%);
     }
 
     to {
-        transform: rotate(360deg);
+        transform: rotate(360deg) translate(-50%, -50%);
     }
 }
