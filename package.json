@@ -1,0 +1,22 @@
+{
+    "name": "helloworld",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ChristopherGranhof/HelloWorld.git"
+    },
+    "author": "Chris",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ChristopherGranhof/HelloWorld/issues"
+    },
+    "homepage": "https://github.com/ChristopherGranhof/HelloWorld#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
